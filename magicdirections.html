@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Input</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="topnav">
+  <a class="active" href="magicdirections.html">Magic Directions</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
+<u>directions to a prison from any specified location:</u>
+<form id="form" onsubmit="dircntower(); return false;">
+  [house number] [road]: <input id="road" type="text" name="road"><br>
+  city: <input id="city" type="text" name="city"><br>
+  <input type="button" value="Directions" onClick="dircntower()">
+  <p id="return"></p>
+</form>
+</body>
+</html>
